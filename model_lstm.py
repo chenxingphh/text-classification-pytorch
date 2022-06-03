@@ -29,7 +29,7 @@ class BiLSTM(nn.Module):
         self.gru = nn.LSTM(embed_dim, self.hidden_dim, num_layers=1, bidirectional=True, batch_first=True)
 
         # 全连接
-        self.pred = nn.Sequential(nn.Linear(self.hidden_dim * 4, embed_dim),
+        self.pred = nn.Sequential(nn.Linear(self.hidden_dim * 2, embed_dim),
                                   nn.GELU(),
                                   nn.Dropout(dropout),
                                   nn.Linear(embed_dim, num_class)
