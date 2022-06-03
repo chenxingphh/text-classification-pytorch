@@ -13,6 +13,7 @@
 * Transformer-XL-Encoder: Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context 
 
 ## 数据集
-    IMDB是一个电影评论的二分类（pos, neg）数据集，专门用于情绪分析。IMDB评级< 5则表示负面评论，而评级>=7的情绪得分为1。IMDB的训练集数目为25000，测试集数目为25000，没有额外提供验证集。
+    IMDB是一个电影评论的二分类（pos, neg）数据集，专门用于情绪分析。
+    IMDB评级< 5则表示负面评论，而评级>=7的情绪得分为1。IMDB的训练集数目为25000，测试集数目为25000，没有额外提供验证集。
 
 
