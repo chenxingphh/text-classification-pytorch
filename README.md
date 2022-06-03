@@ -39,3 +39,6 @@
 |  Bi-LSTM  |    0.8611    |    0.8708    |    0.8871     | 
 |  Transformer-Encoder  |  0.8650       |   0.8670     |      0.8774     | 
 |  Transformer-XL-Encoder  |   0.8751      |  0.8844      |  0.8791         | 
+
+## License
+[MIT LICENSE](LICENSE)
