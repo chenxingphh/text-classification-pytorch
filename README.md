@@ -21,6 +21,7 @@
     epoch: 20
     optimizer: Adam
     warm_up_proportion: 0.1
+    lr: 0.0005
     batch_size: 128
     pretrain_embedding: Glove-6B
     
