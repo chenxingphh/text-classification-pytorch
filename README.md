@@ -25,7 +25,7 @@
     pretrain_embedding: Glove-6B
     
  ## 模型效果
- 对于非预训练模型，这里使用了不同维度的Glove-6B预训练词向量，维度包括50, 100, 200
+ * 对于非预训练模型，这里使用了不同维度的Glove-6B预训练词向量，维度包括50, 100, 200
  
 | Model     | Test(dim=50)   | Test(dim=100)| Test(dim=200)|
 | ----------- | ----------- |-----------|-----------|
@@ -36,5 +36,5 @@
 |  HAN  |         |        |           | 
 |  Bi-GRU  |         |        |           | 
 |  Bi-LSTM  |         |        |           | 
-|  Transformer-Encoder  |         |        |           | 
-|  Transformer-XL-Encoder  |         |        |           | 
+|  Transformer-Encoder  |  0.8650       |   0.8670     |      0.8774     | 
+|  Transformer-XL-Encoder  |   0.8751      |  0.8844      |  0.8791         | 
