@@ -50,11 +50,11 @@ class BiLSTM(nn.Module):
 
         # 最大池化操作
         # x: batch, seq_len, hidden_dim*2
-        # x = x.masked_fill(mask == 0, -float('inf')).max(dim=1)[0]
+        x = x.masked_fill(mask == 0, -float('inf')).max(dim=1)[0]
 
         # 拼接第一个和最后一个输出
         # x: batch, seq_len, hidden_dim*4
-        x = torch.cat([x[:, 0, :], x[:, -1, :]], dim=-1)
+        # x = torch.cat([x[:, 0, :], x[:, -1, :]], dim=-1)
 
         logit = self.pred(x)
         return logit
