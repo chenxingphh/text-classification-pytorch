@@ -16,4 +16,10 @@
     IMDB是一个电影评论的二分类（pos, neg）数据集，专门用于情绪分析。
     IMDB的训练集数目为25000，测试集数目为25000，没有额外提供验证集。
 
-
+## 超参数
+   seed: 512
+   epoch: 20
+   optimizer: Adam
+   warm_up_proportion: 0.1
+   batch_size: 128
+   pretrain_embedding: Glove-6B
