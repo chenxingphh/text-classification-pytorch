@@ -29,7 +29,7 @@
  
 | Model     | Test(dim=50)   | Test(dim=100)| Test(dim=200)|
 | ----------- | ----------- |-----------|-----------|
-| FastText   |         |        |           |     
+| FastText   |  0.8809       |   0.8830     |           |     
 | DPCNN   |         |        |           |   
 | TextCNN  |         |        |           | 
 | RCNN   |         |        |           | 
