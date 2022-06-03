@@ -23,3 +23,6 @@
     warm_up_proportion: 0.1
     batch_size: 128
     pretrain_embedding: Glove-6B
+    
+ ## 模型效果
+ 
